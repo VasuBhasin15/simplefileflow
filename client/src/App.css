@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: url('C:\Users\pc\OneDrive\Desktop\filesharing\client\public\img3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 600px;
+  height:400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #445A6F;
+  margin: 40px 0;
+}
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #445A6F;
+  border: 1px solid #445A6F;
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+  
+}
+button:hover {
+  background-color: #344759;
+  border-color: #344759;
+}
+p{
+  font-size:25px;
+}
+
+
+@media (max-width: 768px) {
+  a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  a {
+    font-size: 13px;
+    
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    background-size: contain;
+  }
+  .wrapper {
+    width: 80%;
+  }
+  p{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    background-size: cover;
+  }
+  .wrapper {
+    width: 90%;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #445A6F;
+    margin: 30px 0;
+  }
+  p{
+    font-size: 18px;
+  }
+}
